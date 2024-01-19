@@ -1,0 +1,21 @@
+
+/*  explore button */
+.explore-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+    font-family: "Nanum Myeongjo", serif;
+    position: absolute;
+    right: 14rem;
+    bottom: 8rem;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 50%;
+    background: rgb(217, 214, 214);
+    color: black;
+    text-align: center;
+  }
+  

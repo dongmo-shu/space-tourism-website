@@ -1,0 +1,32 @@
+
+/* text */
+.text-parent {
+    color: rgba(217, 214, 214, 0.721);
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    margin-left: 13rem;
+    margin-top: 6rem;
+    width: 30rem;
+    font-size: 1.8rem;
+  }
+  .text {
+    font-weight: 400;
+    margin: 1rem 0;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.3rem;
+  }
+  
+  .text-parent h1 {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    font-size: 8rem;
+    color: rgb(217, 214, 214);
+    padding-left: 0.5rem;
+    letter-spacing: 0.6rem;
+  }
+  .text-paragraph {
+    font-size: 1.3rem;
+    text-transform: none;
+    word-spacing: 0.1rem;
+    line-height: 1.8rem;
+  }

@@ -1,0 +1,79 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 16px;
+}
+body {
+  background: url(./starter-code/home/assets/background-home-desktop.jpg);
+}
+
+/* navigation bar */
+
+nav {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+nav ul {
+  font-family: "Roboto Condensed", sans-serif;
+  margin-top: 3rem;
+
+  width: 45rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  display: flex;
+  height: 6.5rem;
+
+  flex-direction: row;
+
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    #131522 10%,
+    #55637d 40%,
+    #364a65,
+    #55637d 70%,
+    #162745 100%
+  );
+}
+nav li {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 1.4rem 0;
+  margin: 0 2rem;
+
+  font-size: 1.2rem;
+}
+nav li a {
+  display: flex;
+  color: white;
+  text-decoration: none;
+  flex-direction: row;
+}
+nav li:hover {
+  border-bottom: 0.2rem solid white;
+}
+.nav-numbers {
+  padding-right: 0.5rem;
+  font-weight: 700;
+}
+.line {
+  position: absolute;
+
+  height: 3.25rem;
+  width: 27rem;
+  left: 14rem;
+  transform: translateY(-50%);
+
+  border-bottom: 0.01rem solid rgb(217, 214, 214);
+}
+.logo {
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  left: 5rem;
+}
