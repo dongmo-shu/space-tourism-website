@@ -3,63 +3,72 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Space-Tourism</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=PT+Serif:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap"
+    <title> Space-Tourism </title>
+
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
       rel="stylesheet"
-    />
+    >
+    <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css" />
-    <link rel="stylesheet" href="main_page_text.css" />
-    <link rel="stylesheet" href="explore_circle.css" />
+    <link rel="stylesheet" href="./home.css" />
   </head>
   <body>
-    <nav>
-      <ul>
-        <img class="logo" src="./starter-code/assets/logo.svg" alt="logo" />
+
+    <!-- Start Header -->
+    <header>
+      <div class="container">
+        <img src="./starter-code/assets/logo.svg" alt="Site Logo" class="logo" />
         <div class="line"></div>
-        <li>
-          <a href="./index.html">
-            <p class="nav-numbers nav-01">00</p>
-            <p class="nav-home">HOME</p></a
-          >
-        </li>
-        <li>
-          <a href="./1_destination.html">
-            <p class="nav-numbers nav-02">01</p>
-            <p class="nav-destination">DESTINATION</p></a
-          >
-        </li>
-        <li>
-          <a href="./2_crew.html">
-            <p class="nav-numbers nav-03">02</p>
-            <p class="nav-crew">CREW</p></a
-          >
-        </li>
-        <li>
-          <a href="./3_technology.html">
-            <p class="nav-numbers nav-04">03</p>
-            <p class="nav-technology">TECHNOLOGY</p></a
-          >
-        </li>
-      </ul>
-    </nav>
-    <main>
-      <div class="text-parent">
-        <p class="text">So, you want to travel to</p>
-        <h1 class="text">Space</h1>
-        <p class="text-paragraph">
-          Let's face it; if you want to go to space, you might as well genuinely
-          go to outer space and not hover kind of on the edge of it. Well sit
-          back, and relax because we'll give you a truly out of theis world
-          experience!
-        </p>
+        <nav>
+          <img src="./assets/shared/icon-close.svg" class="close-menu" alt="" />
+          <ul>
+            <li class="active">
+              <a href="./index.html"><b>00</b> Home</a>
+            </li>
+            <li>
+              <a href="./destination-moon.html"><b>01</b> Destination</a>
+            </li>
+            <li>
+              <a href="./crew-commander.html"><b>02</b> Crew</a>
+            </li>
+            <li>
+              <a href="./technology-vehicle.html"><b>03</b> Technology</a>
+            </li>
+          </ul>
+        </nav>
+        <img
+          src="./assets/shared/icon-hamburger.svg"
+          class="open-menu"
+          alt="hamburger menu"
+        />
+    
       </div>
-      <div class="explore-button">
-        <h2>EXPLORE</h2>
+      <div class="blure_back"></div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Body Section -->
+    <section class="landing">
+      <div class="container">
+        <div class="content">
+          <h1>
+            So, you want to travel to
+            <br />
+            <span>Space</span>
+          </h1>
+          <p>
+            Let’s face it; if you want to go to space, you might as well
+            genuinely go to outer space and not hover kind of on the edge of it.
+            Well sit back, and relax because we’ll give you a truly out of this
+            world experience!
+          </p>
+        </div>
+        <a href="#">Explore</a>
       </div>
-    </main>
+    </section>
+    <!-- End Body Section -->
+
   </body>
   <script type="module" src="/script.js"></script>
 </html>
